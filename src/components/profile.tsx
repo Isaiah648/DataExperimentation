@@ -33,10 +33,25 @@ const Profile: React.FC<ProfileProps> = ({
   return (
     <Container>
             <div>
-            <img 
-              className='photo'
-                src="https://media.licdn.com/dms/image/v2/D4E03AQHEMOKtqKlj-g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730488318938?e=2147483647&v=beta&t=1_KjF9txXrv2Z3etblS6HpgI07FWMLrzpRCA3elPCig" 
-                alt="profile photo" />
+                <img
+                  className='photo2'
+                  src="https://i.pinimg.com/736x/37/85/17/37851701acfd2b641a552b92af3a7e1c.jpg"
+                  alt="ocean image"
+                />
+                <img
+                className='photo1'
+                src="https://i.pinimg.com/736x/2d/94/e3/2d94e36742971c9eef04dd842b379db0.jpg"
+                alt="trees, crown sharing"
+                />
+                {/*<img
+                  className='photo3'
+                  src="https://i.pinimg.com/736x/c2/d9/32/c2d9321ba76db149808d0d87faad65c3.jpg"
+                  alt="trolley car"
+                />*/}
+                <img 
+                className='photo'
+                  src="https://media.licdn.com/dms/image/v2/D4E03AQHEMOKtqKlj-g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730488318938?e=2147483647&v=beta&t=1_KjF9txXrv2Z3etblS6HpgI07FWMLrzpRCA3elPCig" 
+                  alt="profile photo" />
             </div>
             <div className="info">
               <div className="space-y-4">
